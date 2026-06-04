@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { User, Award, CheckCircle2, Award as CertIcon, Languages, Globe, BookOpen, GraduationCap } from "lucide-react";
 import { PERSONAL_INFO, SKILLS_DATA, CERTIFICATIONS_DATA, LANGUAGES_DATA } from "../data";
+import profilePic from "../assets/images/lnkdin_dp.jpeg";
 
 export default function BentoGrid() {
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
@@ -57,7 +58,7 @@ export default function BentoGrid() {
               {/* Profile Image with high-contrast border matching the brutalist theme */}
               <div className="w-28 h-28 sm:w-32 sm:h-32 shrink-0 border-2 border-[#ff5252] bg-neutral-900 group relative overflow-hidden self-center sm:self-start rounded-xl shadow-lg shadow-[rgba(247,37,133,0.15)]">
                 <img
-                  src="/src/assets/images/lnkdin_dp.jpeg"
+                  src={profilePic}
                   alt="Alif Al Fahim Profile Photo"
                   className="w-full h-full object-cover transition-all duration-300 scale-102 hover:scale-105"
                   referrerPolicy="no-referrer"
