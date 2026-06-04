@@ -21,4 +21,4 @@ https://alif-al-fahim-portfolio.vercel.app/
 
 ## Contact
 Email: alfahim116@gmail.com
-linkedin: linkedin.com/in/alif-al-fahim
+linkedin: https://www.linkedin.com/in/alif-al-fahim-505008326/
