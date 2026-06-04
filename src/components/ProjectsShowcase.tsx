@@ -98,7 +98,7 @@ export default function ProjectsShowcase() {
                     {proj.description}
                   </p>
 
-                  {/* Expandable Details Block */}
+                   {/* Expandable Details Block */}
                   {isExpanded && (
                     <div className="mt-6 space-y-4 pt-5 border-t border-white/5 bg-[#161622]/45 -mx-6 px-6 py-5 rounded-b-xl">
                       <div className="space-y-3 text-left">

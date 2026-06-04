@@ -32,7 +32,7 @@ export const PROJECTS_DATA: Project[] = [
     id: "flood-risk-analytics",
     title: "Bangladesh Flood Risk Analytics",
     subtitle: "Interactive Climate & Spatial Analytics",
-    description: "An analysis tool that pulls together weather data and map coordinates to track and visualize flood risks and seasonal safety levels across Bangladesh's districts.",
+    description: "A data analytics project exploring 24 years of rainfall patterns across Bangladesh districts to identify flood risk trends, seasonal patterns, and climate signals using satellite-derived precipitation data.",
     bulletPoints: [
       "Collected and organized years of raw weather information (rainfall records, river water levels, and map coordinates) to measure flood risks across different regions of Bangladesh.",
       "Analyzed the weather dataset to find trends and prepare clear reports about which districts are most vulnerable during monsoon season.",
