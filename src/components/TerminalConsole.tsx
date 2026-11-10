@@ -282,10 +282,10 @@ export default function TerminalConsole() {
         iframe.contentWindow.focus();
         iframe.contentWindow.print();
       } catch (err) {
-        window.open("CV.pdf", "_blank");
+        window.open("/CV.pdf?v=20261110", "_blank");
       }
     } else {
-      window.open("CV.pdf", "_blank");
+      window.open("/CV.pdf?v=20261110", "_blank");
     }
   };
 
@@ -305,7 +305,7 @@ export default function TerminalConsole() {
       {/* Hidden PDF framing helper to bypass page printing and trigger the high-quality uploaded CV.pdf */}
       <iframe
         id="pdf-print-helper"
-        src="CV.pdf"
+        src="/CV.pdf?v=20261110"
         style={{ display: "none", position: "absolute", width: "1px", height: "1px", opacity: 0 }}
         title="PDF Print Helper"
       />

@@ -88,7 +88,7 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
 
             {/* Highlighted Download CV button/link right beside Hire Me option */}
             <a
-              href="CV.pdf"
+              href="/CV.pdf?v=20261110"
               download="Alif_Al_Fahim_CV.pdf"
               className="flex items-center gap-2 px-3.5 py-1.5 text-[10px] uppercase font-mono tracking-wider bg-[#13131a] border border-[#ff5252]/40 hover:border-[#f72585] text-[#ff6b9d] hover:text-white transition-all cursor-pointer rounded-full shadow-lg shadow-[rgba(247,37,133,0.15)] font-bold hover:scale-102 active:scale-95"
             >
@@ -108,7 +108,7 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-3">
             <a
-              href="CV.pdf"
+              href="/CV.pdf?v=20261110"
               download="Alif_Al_Fahim_CV.pdf"
               className="flex items-center gap-1.5 px-3 py-1 text-[9px] uppercase font-mono tracking-wider bg-[#13131a] border border-[#ff5252]/40 text-[#ff6b9d] font-black rounded-full"
             >

@@ -10,10 +10,10 @@ export default function ResumeViewer() {
         iframe.contentWindow.focus();
         iframe.contentWindow.print();
       } catch (err) {
-        window.open("CV.pdf", "_blank");
+        window.open("/CV.pdf?v=20261110", "_blank");
       }
     } else {
-      window.open("CV.pdf", "_blank");
+      window.open("/CV.pdf?v=20261110", "_blank");
     }
   };
 
@@ -34,7 +34,7 @@ export default function ResumeViewer() {
       {/* Hidden PDF framing helper to bypass page printing and trigger the high-quality uploaded CV.pdf */}
       <iframe
         id="pdf-print-helper"
-        src="CV.pdf"
+        src="/CV.pdf?v=20261110"
         style={{ display: "none", position: "absolute", width: "1px", height: "1px", opacity: 0 }}
         title="PDF Print Helper"
       />
@@ -63,7 +63,7 @@ export default function ResumeViewer() {
               Print / Save PDF
             </button>
             <a
-              href="CV.pdf"
+              href="/CV.pdf?v=20261110"
               download="Alif_Al_Fahim_CV.pdf"
               className="flex items-center gap-2 px-5 py-3 font-mono text-[10px] uppercase tracking-wider bg-gradient-to-r from-[#ff5252] to-[#f72585] text-white font-black hover:opacity-90 transition-all cursor-pointer border border-transparent rounded-lg shadow-lg shadow-[rgba(247,37,133,0.25)]"
             >

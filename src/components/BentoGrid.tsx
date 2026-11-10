@@ -73,8 +73,8 @@ export default function BentoGrid() {
                 <span className="text-3xl font-black font-mono text-gradient-coral mt-1 block">3.74 <span className="text-xs text-[#a0a0b0]">/ 4.00</span></span>
               </div>
               <div>
-                <span className="text-[#a0a0b0]/60 font-mono text-[9px] block uppercase tracking-widest">Expected Graduation</span>
-                <span className="text-xl font-bold font-sans text-white mt-1.5 block uppercase tracking-wide">June 2026</span>
+                <span className="text-[#a0a0b0]/60 font-mono text-[9px] block uppercase tracking-widest">Graduated</span>
+                <span className="text-xl font-bold font-sans text-white mt-1.5 block uppercase tracking-wide">July 2026</span>
               </div>
               <div>
                 <span className="text-[#a0a0b0]/60 font-mono text-[9px] block uppercase tracking-widest">Primary Focus</span>
@@ -103,7 +103,7 @@ export default function BentoGrid() {
                   </div>
                   <div>
                     <p className="text-xs font-sans text-white font-bold uppercase tracking-wider">Daffodil Int. University</p>
-                    <p className="text-[11px] font-mono text-[#a0a0b0]">8th Semester | BSc in CSE (3.74 / 4.00)</p>
+                    <p className="text-[11px] font-mono text-[#a0a0b0]">BSc in CSE | CGPA 3.74 / 4.00 (July 2026)</p>
                   </div>
                 </div>
 

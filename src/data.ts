@@ -2,14 +2,14 @@ import { Project, Skill, Experience, Education, Certification, Language } from "
 
 export const PERSONAL_INFO = {
   name: "Alif Al Fahim",
-  title: "Aspiring Data Analyst & CSE Undergraduate",
+  title: "Data Analyst & CSE Graduate",
   location: "Savar, Dhaka, Bangladesh",
   email: "alfahim116@gmail.com",
   phone: "01641582152",
   phoneFull: "+8801641582152",
   linkedin: "https://www.linkedin.com/in/alif-al-fahim-505008326/",
   github: "https://github.com/Alif-Al-Fahim",
-  summary: "Undergraduate student in Computer Science & Engineering who loves analyzing data, creating easy-to-use software, and building dashboards. Practical experience in making web and mobile applications, conducting collaborative research, and solving real-world problems. Experienced in Python, SQL, and creating visual reports that help businesses make better decisions."
+  summary: "Computer Science graduate with a strong foundation in data analytics, machine learning, and software development. Experienced in building web and mobile applications, and managing client relationships for a US-based company. Skilled in Python, data analysis, and modern development technologies, with strong communication, problem-solving, and operational coordination skills. Passionate about leveraging technology and data to solve real-world problems."
 };
 
 export const PROJECTS_DATA: Project[] = [
@@ -124,26 +124,36 @@ export const SKILLS_DATA: Skill[] = [
 
 export const EXPERIENCE_DATA: Experience[] = [
   {
-    role: "Research Assistant / Machine Learning Researcher",
-    company: "Academic Project (Daffodil International University)",
-    period: "2025 – Present",
+    role: "Client Manager",
+    company: "Alpha Group",
+    period: "July 2026 – Present",
     bullets: [
-      "Conducting collaborative research with senior professors, focusing on streamlining smart computer models to run faster and use less computing memory.",
-      "Analyzing large sets of images and database rows to find trends and evaluate how accurately different programs can categorize them.",
-      "Co-writing a comprehensive research article that compares different modern software models and documents current challenges in the field."
+      "Manage client relationships and communicate directly with US clients through professional phone calls and correspondence.",
+      "Process, coordinate, and submit client work orders while ensuring accurate documentation and timely follow-ups.",
+      "Track work orders, monitor payment records, and resolve client inquiries to ensure smooth operations and client satisfaction."
     ],
-    category: "Academic & Research"
+    category: "Professional"
   },
   {
     role: "Virtual Operations Assistant",
     company: "Amena Model School",
     period: "2022 – Present",
     bullets: [
-      "Managed the school's digital tools, portals, and online classrooms, ensuring lessons ran smoothly for teachers and students alike.",
-      "Provided friendly support to teachers and students, helping them set up video calls, resolve log-in issues, and configure educational software.",
-      "Monitored digital sessions to solve audio-visual problems instantly, preventing disruptions during active classes."
+      "Managed the school's online platforms and virtual classroom operations.",
+      "Assisted teachers and students with basic IT troubleshooting.",
+      "Supported smooth delivery of online classes and digital activities."
     ],
     category: "Professional"
+  },
+  {
+    role: "Research Assistant / Machine Learning Researcher",
+    company: "Academic Project (Daffodil International University)",
+    period: "2025 – Present",
+    bullets: [
+      "Conducting machine learning research with a focus on federated learning, model optimization, and data analysis.",
+      "Working on a review paper and hands-on ML experiments."
+    ],
+    category: "Academic & Research"
   },
   {
     role: "YouTube Content Creator",
@@ -152,7 +162,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     bullets: [
       "Researched, wrote, and produced friendly, step-by-step videos that explain software tools and tech concepts to students.",
       "Used modern tools to build clean, high-quality audio recordings and visuals that make complex topics easy and fun to learn.",
-      "Designed eye-catching previews, images, and graphics to help students discover and learn from my educational videos."
+      "Designed eye-catching previews, images, and graphics to help students discover and learn from educational videos."
     ],
     category: "Content Creation"
   }
@@ -162,7 +172,7 @@ export const EDUCATION_DATA: Education[] = [
   {
     institution: "Daffodil International University",
     degree: "Bachelor of Science in Computer Science and Engineering",
-    period: "2022 – June 2026",
+    period: "2022 – July 2026",
     gpa: "3.74",
     gpaScale: "4.00",
     field: "Specialization in Data Analysis & AI Research"
